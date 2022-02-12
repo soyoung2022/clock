@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    background-color: #FFF4DE;
+    overflow-y: hidden;
+}
+.digitalClock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: auto;
+}
+.menu{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #E6FAED;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-weight: bold;
+}
+nav{
+    transition: 0.3s;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+}
+
+nav a:hover{
+    color:#BDA9E9;
+}

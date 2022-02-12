@@ -1,0 +1,9 @@
+.time{
+    /* border: 1px solid blueviolet; */
+    font-size: 8rem;
+    margin-bottom: 10px;
+}
+.date{
+    /* border: 1px solid tomato; */
+    font-size: 5rem;
+}
