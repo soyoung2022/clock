@@ -4,6 +4,7 @@ $(document).ready(function(){
     $(".time").text('00:00:00');
 });
 
+
 $(function(){
     $(".start").click(function(){
         if(!isStop){

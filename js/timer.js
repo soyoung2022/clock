@@ -2,6 +2,7 @@ $(document).ready(function(){
     $(".left-time").text("00:00:00");
 });
 
+
 $(function(){
     let hour, minute, second, tot = 0;
     let isInput = false;
