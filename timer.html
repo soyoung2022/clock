@@ -13,12 +13,12 @@
     <div class="digitalClock">
         <nav class="menu">
             <a href="#" onclick="location.href = 'index.html'">시계</a>
-            <a href="#" style="color: red;" onclick="location.href = 'timer.html'">타이머</a>
+            <a href="#" style="color: #594432;" onclick="location.href = 'timer.html'">타이머</a>
             <a href="#" onclick="location.href = 'stopwatch.html'">스톱워치</a>
         </nav>
         <div class="alert"></div>
         <div class="set-timer">
-            <form class="input-form">
+            <form class="input-form" autocomplete="off">
                 <input id="inputHour" type="text" required placeholder=0 min=0>
                 <span>시간</span>
                 <input id="inputMinute" type="text" required placeholder=0 min=0>
@@ -27,18 +27,6 @@
                 <span>초</span>
                 <input type="submit" class="hidden">
             </form>
-            <!-- <form class="set-hour">
-                <input id="inputHour" type="text" required placeholder=0 min=0>
-                <span>시간</span>
-            </form>
-            <form class="set-minute">
-                <input id="inputMinute" type="text" required placeholder=0 min=0>
-                <span>분</span>
-            </form>
-            <form class="set-second">
-                <input id="inputSecond" type="text" placeholder=0 min=0 required>
-                <span>초</span>
-            </form> -->
         </div>
         <div class="timer">
             <span class="left-time"></span>
@@ -49,6 +37,9 @@
             <button class="stop">일시정지</button>
             <span class="space"></span>
             <button class="start">시작</button>
+        </div>
+        <div class="myusername">
+            <span>soyoung2022</span>
         </div>
     </div>
     <script src="js/timer.js"></script>

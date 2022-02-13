@@ -8,8 +8,8 @@
 /* } */
 
 .start, .stop, .clear{
-    background-color: white;
-    border: 1px solid white;
+    background-color: whitesmoke;
+    border: 1px solid #F2EDE4;
     border-radius: 10px;
     font-size: 1rem;
     padding: 8px 15px;
@@ -21,5 +21,6 @@
     margin-left: 150px;
 }
 .clicked{
-    background-color: yellow;
+    background-color: #A69177;
+    color: white;
 }

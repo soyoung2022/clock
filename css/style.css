@@ -1,7 +1,8 @@
 body{
     margin: 0px;
-    background-color: #FFF4DE;
+    background-color: #F2EDE4;
     overflow-y: hidden;
+    font-family:'Courier New', Courier, monospace;
 }
 .digitalClock{
     display: flex;
@@ -12,25 +13,29 @@ body{
     overflow: auto;
 }
 .menu{
+    height: 80px;
     width: 100vw;
     display: flex;
     justify-content: center;
-    background-color: #E6FAED;
+    align-items: center;
+    background-color: #BCB3A4;
     position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
     font-weight: bold;
 }
-nav{
-    transition: 0.3s;
-}
 nav a{
     text-decoration: none;
-    color: black;
+    color: #F2EDE4;
     margin: 2rem;
 }
 
 nav a:hover{
-    color:#BDA9E9;
+    color: #594432;
+}
+
+.myusername{
+    position: absolute;
+    bottom: 10px;
 }

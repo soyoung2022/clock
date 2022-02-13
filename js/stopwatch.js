@@ -10,7 +10,6 @@ $(function(){
             isStop = true;
             $(".start").addClass("clicked");
             $(".stop").removeClass("clicked");
-            $(".clear").removeClass("clicked");
             count = setInterval(function(){
                 time++;
                 let second = time % 60;
@@ -26,7 +25,6 @@ $(function(){
 
     $(".stop").click(function(){
         $(".stop").addClass("clicked");
-        $(".clear").removeClass("clicked");
         $(".start").removeClass("clicked");
         if(time !== 0){
             clearInterval(count);
@@ -42,5 +40,13 @@ $(function(){
         $(".time").text('00:00:00');
         isStop = false;
         time = 0;
+        let duration = 0;
+        d = setInterval(function(){
+            duration++;
+            if(duration == 2){
+                $(".clear").removeClass("clicked");
+                clearInterval(d);
+            }
+        }, 1000);
     });
 })
