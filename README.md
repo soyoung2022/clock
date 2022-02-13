@@ -8,7 +8,17 @@
 저번 투 두 리스트는 제이쿼리를 이용하지 않았는데, 이번에 타이머, 스톱워치 기능을 구현하며 제이쿼리를 사용했다.
 
 #### 완성된 화면
+**시계**
 
+<img width="1792" alt="스크린샷 2022-02-13 오후 4 00 03" src="https://user-images.githubusercontent.com/80568332/153743691-82595356-1465-46ea-89f6-a9ed50330966.png">
+
+**타이머**
+
+<img width="1789" alt="스크린샷 2022-02-13 오후 4 00 49" src="https://user-images.githubusercontent.com/80568332/153743696-34754f82-76b1-46a6-bca0-96deae640884.png">
+
+**스톱워치**
+
+<img width="1791" alt="스크린샷 2022-02-13 오후 4 01 11" src="https://user-images.githubusercontent.com/80568332/153743699-cdfa21c0-2cc0-41ac-bf61-1ac91cccdcc4.png">
 
 #### 개발 기간
 2022.02.12~02.13 총 2일
